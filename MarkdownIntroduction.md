@@ -33,13 +33,13 @@
     -   3.1
 
 ## Ordered list
-1)  A
+1.  A
     ```
     hello
     ```
     **hello world**
-1)  B
-    1)  BA
+2.  B
+    1.  BA
         ```
         123456
         ```

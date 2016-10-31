@@ -1,51 +1,42 @@
 # Markdown Introduction
 
-## Useful links for learning Markdown
--   [CommonMark]
--   [CommonMark-dingus]
--   [CommonMark-spec]
+## Links for Learning Markdown
+-   [CommonMark](http://commonmark.org/)
+-   [CommonMark-dingus](http://spec.commonmark.org/dingus/)
+-   [CommonMark-spec](http://spec.commonmark.org/)
 
-[CommonMark]: http://commonmark.org/
-[CommonMark-dingus]: http://spec.commonmark.org/dingus/
-[CommonMark-spec]: http://spec.commonmark.org/
+## Reader for Markdown
+-   [Markdown Reader](https://chrome.google.com/webstore/detail/markdown-reader/gpoigdifkoadgajcincpilkjmejcaanc)
 
-## Editors for writing Markdown
--   [VSCode]
--   [StackEdit]
--   [HackMD]
+## Editors for Markdown
+-   [VS2015(extension)](https://visualstudiogallery.msdn.microsoft.com/eaab33c3-437b-4918-8354-872dfe5d1bfe)
+-   [VSCode](https://code.visualstudio.com/Docs/languages/markdown)
+-   [Minimalist Markdown Editor](https://chrome.google.com/webstore/detail/minimalist-markdown-edito/pghodfjepegmciihfhdipmimghiakcjf)
+-   [HackMD](https://hackmd.io/)
 
-[VSCode]: https://code.visualstudio.com/Docs/languages/markdown
-[StackEdit]: https://stackedit.io/
-[HackMD]: https://hackmd.io/
+## Documentation using Markdown
+-   [CSharp Language Specification](https://github.com/ljw1004/csharpspec)
+-   [.Net corefx Documentation](https://github.com/dotnet/corefx/tree/master/Documentation)
 
-## Unordered list
--   I have a dream.\
-    You have a dream.
--   `li2`
-    -   `2.1`\
-        this is in `2.1`
-        -   ni hao
-    -   2.2
-    -   2.3
-        word
-   -   2.2
--   `li3`
-    -   3.1
+## Markdown Syntax Examples
+### Unordered List
+-   Asia
+    -   Taiwan
+        -   Taipei
+    -   Thailand
+-   Europe
+    -   German
+    -   France
 
-## Ordered list
-1.  A
-    ```
-    hello
-    ```
-    **hello world**
-2.  B
-    1.  BA
-        ```
-        123456
-        ```
+### Ordered List
+1.  First
+2.  Second
+    1.  *2.1*
+        1. *2.1.1*
+3.  Third
 
-## I will show you some code here!!!
-```cs
+### Code Blocks
+```csharp
 using System;
 public class Program
 {
@@ -58,36 +49,29 @@ public class Program
 }
 ```
 
-## We can use blocks to make comments!!
-
+## Blockquotes
 >   This is the first level of quoting.
 >>  This is nested blockquote.
->>  -   li1
->>  -   li2
->>
->>  back from li
 >
-> Back to the first level.
+>   Back to the first level.
 >
 
-> this is two
+>   this is two
 
-> blockquotes
+>   blockquotes
 
-> this is a single
+>   this is a single
 >
-> blockquote with two paragraphs
+>   blockquote with two paragraphs
 
-## Table demo
+## Tables
 Name    | Description | Price
 ------- | ----------- | --------
-Apple   | Religion    | \>30K
-Sony    | Japanese    | ~15K
-Samsung | **BOOM**    | ~25K
+Apple   | Religion    | \>25K
+Sony    | Japanese    | 10~15K
+Samsung | **BOOM**    | 15~25K
 
-# This section will show you my favorite pictures.
-![海濤-假的]
-![海濤-假的]
-![海濤-假的]
+# Image Links
+![Google Logo]
 
-[海濤-假的]: https://d17ixjpazu3j94.cloudfront.net/images/2016/07/09/14680562934659WaR6kIXARe.jpg "海濤-假的"
+[Google Logo]: https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif
